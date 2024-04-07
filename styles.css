@@ -1,0 +1,87 @@
+body{
+    font-family: 'Saira', sans-serif;
+    background-color:  #457b9d;
+    height: 95vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    border-radius: 2vh;
+    background-color:#1d3557;
+    height: 72vh;
+    width: 50vh;
+}
+.display_container{
+    background-color: #a8dadc;
+    height: 15vh;
+    margin: 3vh;
+    padding-right: 1vh;
+    text-align: right;
+    border-radius: 1vh;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.display_container::-webkit-scrollbar{
+    display: none;
+  }
+.secondary_display{
+    height: 4vh;
+    font-size: 4vh;
+}
+.Display{
+    margin-top: 1vh;
+    font-size: 7vh;
+}
+.number_input{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+    justify-content: center;
+}
+button{
+    border-radius: 1vh;
+    font-family: 'Saira', sans-serif;
+    font-size: 3.5vh;
+    border: none;
+    transition: .3s ease-in-out;
+}
+button:hover{
+    transform: scale(0.98);
+}
+.button,.decimal,.equal{
+    height: 8.5vh;
+    width: 9.5vh;
+}
+.clear,.backspace{
+    height: 6vh;
+    width: 20.8vh;
+}
+.clear:hover{
+    background-color:  #e63946;
+}
+.backspace:hover{
+    background-color:rgba(60, 101, 214, 0.712);
+}
+.button:hover,.decimal:hover{
+    background-color:rgb(190, 218, 250);
+}
+.equal:hover{
+    background-color: #74a685;
+}
+img{
+    transition: transform 0.3s ease-in-out;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.footer a img{
+    width: 25px;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    margin: 2vh;
+}
